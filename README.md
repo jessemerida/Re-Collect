@@ -17,3 +17,5 @@ Features:
 • A tool that pauses time, allowing the player to get away from harm
 
 • A “second chance at life/second wind” mechanic dubbed “recollecting” that allows the player to gain all their health back multiple times by defeating enemies as long as they don’t die upon losing their main health pool
+
+Video Demo: https://www.youtube.com/watch?v=0R1BFmFwPGo&feature=youtu.be
