@@ -1,0 +1,17 @@
+# Exported from 3D Builder
+
+newmtl Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Materials\server panels.01.png
+
+newmtl Translucent_0
+Kd 0.019608 0.019608 0.019608
+
+newmtl Regular_0
+Kd 0.501961 0.501961 0.501961
+
+newmtl Regular_1
+Kd 0.376471 0.376471 0.376471
+
+newmtl Regular_2
+Kd 0.129412 0.733333 0.298039

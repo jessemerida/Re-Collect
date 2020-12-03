@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DearVRAudioMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 9625ac939eaf48d4080954d424369c06
+    - 7552fd587a01117428966c81db33fad4
+    - d3028da972ed6974ca1386dc9cd31b11
+    - 46f8210975d7d014ab7623db9e092a6b
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 9625ac939eaf48d4080954d424369c06
+  m_Children:
+  - {fileID: 243755007862361448}
+  - {fileID: 243731638980132208}
+  - {fileID: 243540311477986620}
+  m_Volume: 334c8a1835272b940b9d05702d1069bc
+  m_Pitch: 2ed8a3c57038ac143a1446808b9f9f13
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 6b2ad993fda32094f829ef47c4628f44
+  m_EffectName: Attenuation
+  m_MixLevel: 6738d387546a38b468add48e70d87588
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: c0b16db3172842c4db51fd8628af2d48
+  m_FloatValues:
+    9ac9b57004ee1464f8b2ad3a840355f8: 0
+    f165a051b8cf90c4eab1ced743cd44b7: 0
+    a8b59e61a07f95e44ad45652d58a1dfc: 100
+    e53ebde3344a57448bc96902541aa7a9: 100
+    a00a4854895d6844880589dc059bed78: 3
+    806748c562d658d4bab585632beb5369: 0
+    ef27b5f5ad51d80468ec57a2f3580e2c: 0
+    02a83da6d402f5d4388d7ee53ce9aadb: 1
+    c5601867019705a44ba11bb1aa1c5492: 20000
+    63b94db853de2464bbb464b08ecacfa1: 0
+    1ff69ad8c32f91d4392e7cec7ff631f0: 2
+    b615c2596a9a57f48b2a4f80983cbef6: 12
+    5a7fae69732738b4e80ba4567a78ae4b: 100
+    4f7d61a94abefa749beb1563ca02c7ef: 20000
+    4fbb3fb9e2fba1644989c1db3db6538d: 0
+    e444764a59c3ea9479d924468348de83: 0
+    981c8bda261a63c41a51f3b1144a3897: 21
+    d4ce9e7ba352e2047b1f11690502a4e5: 0
+    00bd3b8bb2ccb32418666ac0d49979a9: 0
+    2c51abbc8d0f59043ac30ee275aab27c: 0
+    88784cfd0de013743b1945acd611d6e7: 0
+    f9966b8e6760eff44b61acc2013fbdf2: 10
+    56a7a51f8a05a454caa17caf1a1cc6e6: 0
+    c253358f9db97fb43827cc4a5f980267: 20000
+  m_TransitionOverrides: {}
+--- !u!243 &243540311477986620
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Reverb Bus 3
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 46f8210975d7d014ab7623db9e092a6b
+  m_Children: []
+  m_Volume: 2292ad497b42b7940b236d6492ef920c
+  m_Pitch: afa70b28f2b7f5643b38ac7a556b1871
+  m_Effects:
+  - {fileID: 244538253864803548}
+  - {fileID: 244655909219065752}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243731638980132208
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Reverb Bus 2
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: d3028da972ed6974ca1386dc9cd31b11
+  m_Children: []
+  m_Volume: c7e7846dbffa44b4dad9a74793baa24d
+  m_Pitch: 440f366c2a01447418b94b0cc867e4d5
+  m_Effects:
+  - {fileID: 244669759148946846}
+  - {fileID: 244565637060195878}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243755007862361448
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Reverb Bus 1
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 7552fd587a01117428966c81db33fad4
+  m_Children: []
+  m_Volume: 4e601778f8a291649a43ee0855f08885
+  m_Pitch: 73283672f7be0cd429b0fce689126274
+  m_Effects:
+  - {fileID: 244026180304504934}
+  - {fileID: 244845135071709274}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &244026180304504934
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 86d63897a1dd84b4ca6afa37e4791a0c
+  m_EffectName: dearVR Reverb
+  m_MixLevel: f05e153ac5f79e440b6312ca406ab8fc
+  m_Parameters:
+  - m_ParameterName: Gain
+    m_GUID: 2c51abbc8d0f59043ac30ee275aab27c
+  - m_ParameterName: Reverb
+    m_GUID: 806748c562d658d4bab585632beb5369
+  - m_ParameterName: Room Selection
+    m_GUID: 981c8bda261a63c41a51f3b1144a3897
+  - m_ParameterName: Mute
+    m_GUID: f165a051b8cf90c4eab1ced743cd44b7
+  - m_ParameterName: ReverbLP
+    m_GUID: c253358f9db97fb43827cc4a5f980267
+  - m_ParameterName: RoomSize
+    m_GUID: 5a7fae69732738b4e80ba4567a78ae4b
+  - m_ParameterName: Bass Boost
+    m_GUID: 3db4ace4d816a224aa773b8f379b6470
+  - m_ParameterName: Bypass
+    m_GUID: e444764a59c3ea9479d924468348de83
+  - m_ParameterName: ReverbID
+    m_GUID: 02a83da6d402f5d4388d7ee53ce9aadb
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244538253864803548
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: b7b7b236bda3b2141bf5ba9f8d0c9f50
+  m_EffectName: dearVR Reverb
+  m_MixLevel: 37bc36d1a0ecfc341bf615776b8ec43c
+  m_Parameters:
+  - m_ParameterName: Gain
+    m_GUID: 4fbb3fb9e2fba1644989c1db3db6538d
+  - m_ParameterName: Reverb
+    m_GUID: 9ac9b57004ee1464f8b2ad3a840355f8
+  - m_ParameterName: Room Selection
+    m_GUID: b615c2596a9a57f48b2a4f80983cbef6
+  - m_ParameterName: Mute
+    m_GUID: 00bd3b8bb2ccb32418666ac0d49979a9
+  - m_ParameterName: ReverbLP
+    m_GUID: c5601867019705a44ba11bb1aa1c5492
+  - m_ParameterName: RoomSize
+    m_GUID: e53ebde3344a57448bc96902541aa7a9
+  - m_ParameterName: Bass Boost
+    m_GUID: 629a273ecb413f04b8e72c767a8ab824
+  - m_ParameterName: Bypass
+    m_GUID: ef27b5f5ad51d80468ec57a2f3580e2c
+  - m_ParameterName: ReverbID
+    m_GUID: a00a4854895d6844880589dc059bed78
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244565637060195878
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 35999c02deac1ff42a756a89400a0921
+  m_EffectName: Attenuation
+  m_MixLevel: dc0045fbb2fabab4abda46ae1d2d18b0
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244655909219065752
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 8aa9a86f01d510d41b5f99d4c0a898e2
+  m_EffectName: Attenuation
+  m_MixLevel: a856134ab97476845b80abb4c0a9fab1
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244669759148946846
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 30dba290f01189c46aa7e0f3e3e20126
+  m_EffectName: dearVR Reverb
+  m_MixLevel: 7014d6785807c9d44b0c92c3a9c45207
+  m_Parameters:
+  - m_ParameterName: Gain
+    m_GUID: 56a7a51f8a05a454caa17caf1a1cc6e6
+  - m_ParameterName: Reverb
+    m_GUID: d4ce9e7ba352e2047b1f11690502a4e5
+  - m_ParameterName: Room Selection
+    m_GUID: f9966b8e6760eff44b61acc2013fbdf2
+  - m_ParameterName: Mute
+    m_GUID: 88784cfd0de013743b1945acd611d6e7
+  - m_ParameterName: ReverbLP
+    m_GUID: 4f7d61a94abefa749beb1563ca02c7ef
+  - m_ParameterName: RoomSize
+    m_GUID: a8b59e61a07f95e44ad45652d58a1dfc
+  - m_ParameterName: Bass Boost
+    m_GUID: 78bc974d27ff00f4ab4019d9791f00d4
+  - m_ParameterName: Bypass
+    m_GUID: 63b94db853de2464bbb464b08ecacfa1
+  - m_ParameterName: ReverbID
+    m_GUID: 1ff69ad8c32f91d4392e7cec7ff631f0
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244845135071709274
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: d7a0dc9f110f5b8479d72a04ef602dad
+  m_EffectName: Attenuation
+  m_MixLevel: 46135a3f11ed5ed45b4f334ca63b2b8b
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
